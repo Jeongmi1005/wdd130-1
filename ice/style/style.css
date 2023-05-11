@@ -1,0 +1,59 @@
+
+body {
+
+    background-color: #fca6c9;
+    text-align: center;
+    margin-left: 180px;
+    margin-right: 180px;
+    }
+    .bananas{
+        color:white;
+        text-decoration: none;
+    }
+    .bananas:hover{
+    color:black
+
+    }
+    .pres{
+        color: white;
+        font-size: 0.8em;
+    }
+    .education{
+    font-size: 0.5em;
+    }
+    img {
+    width: 20%;
+    display: block;
+    margin: 0 auto;
+    }
+    ol{ 
+    text-align: center;
+    list-style-type: decimal
+    }
+    
+    .gospel{
+    text-align: left;
+     }
+     .gospelb{
+        text-align: left;
+        
+     }
+     .gospelc{
+        text-align: left;
+     }
+    .gospeld{
+        text-align: left;
+    }
+    footer{
+    text-align: center;
+    }
+    
+    blockquote {
+    text-align: center;
+    color:white;
+    
+    }
+    .savior{
+        margin-left: 100px;
+        margin-right: 100px;
+    }
