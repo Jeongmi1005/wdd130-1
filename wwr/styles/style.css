@@ -214,6 +214,35 @@ main section img{
    box-shadow: 5px 5px 10px #6f7364;
 }
 
+/*Page 2*/
+.img-1 {
+    width:400px;
+    margin:30px;
+    border:10px solid #e1ca96;
+    
+}
+
+.img-2 {
+    width: 400px;
+    margin: 30px;
+    border:10px solid #e1ca96;
+    
+    
+}
+.img-3 {
+    width: 430px;
+    margin: 30px;
+    border:10px solid #e1ca96;
+    
+    
+}
+
+.p {
+    background-color: rgb(255, 194, 194);
+    color: rgb(135, 115, 115);
+    padding: 1em;
+}
+
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
         display: block;
