@@ -1,13 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Teko&family=Varela+Round&display=swap');
+
 body {
-    background-color: rgb(255, 222, 222);
+    background-color:#f6d280 ;
     margin: 0
+    
 }
 #content {
     max-width: 1600px;
     margin: 0 auto;
 }
 header {
-    background-color:rgb(255, 187, 179);
+    background-color:#445989;
     display: grid;
     grid-template-columns: 150px auto;
 }
@@ -29,17 +32,22 @@ nav {
 }
 nav a {
     text-align: center;
-    color:rgb(255, 128, 49);
+    color:white;
     text-decoration: none;
     padding: 35px;
 } 
 
 /*Home*/
 p {
-    color: rgb(191, 73, 73);
+    color: #273034;
     text-align: center;
     font-size: 80px;
+    font-family: Teko;
 
+}
+nav{
+    font-size: 22px;
+    font-family: Abel;
 }
 
 .img-1 {
@@ -109,7 +117,7 @@ p {
 }
 
 .p {
-    background-color: rgb(255, 194, 194);
+    background-color: white;
     color: rgb(135, 115, 115);
     padding: 1em;
 }
@@ -196,12 +204,14 @@ form {
 /*footer*/
 footer p {
     font-size: 1.2em;
+    color:white;
+    font-family: Abel ;
 }
 footer p a:hover {
     text-decoration: underline;
 }
 footer {
-    background-color:rgba(253, 158, 123, 0.7);
+    background-color:#273034;
     color:#ffffff;
     padding: 25px 50px;
     margin-top: 200px;
@@ -214,7 +224,7 @@ footer a {
     text-decoration: none;
 }
 footer a:hover {
-    color:rgba(0, 0, 0)
+    color:#f6d280;
 }
 footer .social img{
     padding-top: 15px;
