@@ -64,7 +64,8 @@ nav a{
     z-index: -1;
 }
 #hero-msg h4{
-    color: white;
+    color: #e1ca96;
+    background-color: transparent;
 }
 
 .button-box {
@@ -101,10 +102,11 @@ nav a:hover{
     color:#d9c2a3;
 }
 .home-title{
-    background-color:white;
+    background-color:transparent;
     font-family:'Kalam';
     font-size:2em;
     margin-top:10px;
+    color:#fcfbfb;
 }
 h4{
     background-color:white;
