@@ -116,7 +116,7 @@ nav{
 /*Page 2*/
 
 #page2_img{
-    display:grid auto;
+    display:grid;
     text-align: center;
     grid-template-columns: 1fr 1fr 1fr;
     margin-top:50px;
@@ -269,7 +269,7 @@ form {
 }
 
 #contactus_img{
-    display:grid auto;
+    display:grid;
     text-align: center;
     grid-template-columns: 1fr 1fr 1fr;
     margin-top:50px;
