@@ -318,5 +318,10 @@ footer .social img{
     footer{
         margin-top:25px;
     }
+
+    .card{
+        display: block;
+        height: auto;
+    }
     
 }
