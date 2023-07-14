@@ -7,6 +7,7 @@
 body {
     background-color:transparent ;
     margin: 0;
+
 }
 #content {
     max-width: 1600px;
@@ -293,4 +294,29 @@ footer a:hover {
 }
 footer .social img{
     padding-top: 15px;
+}
+
+
+@media all and (max-width: 900px){
+    #home-img, .name{
+        display: block;
+        height: auto;
+    }
+
+    nav, footer {
+        flex-direction: column;
+    }
+    nav a {
+        display: block;
+        padding: 15px;
+    }
+
+    .name{
+        margin-top:0;
+    }
+
+    footer{
+        margin-top:25px;
+    }
+    
 }
