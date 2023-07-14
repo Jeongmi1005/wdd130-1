@@ -296,7 +296,7 @@ footer .social img{
     padding-top: 15px;
 }
 
-@media all and (max-width: 900px){
+@media all and (max-width: 768px){
     #home-img, .name{
         display: block;
         height: auto;
