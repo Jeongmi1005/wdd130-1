@@ -1,0 +1,299 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Teko&family=Varela+Round&display=swap');
+
+.center{
+    margin:0 auto;
+    text-align: center;
+}
+body {
+    background-color:transparent ;
+    margin: 0;
+
+}
+#content {
+    max-width: 1600px;
+    margin: 0 auto;
+
+}
+header {
+    background-color: #f6d280;
+    display: grid;
+    grid-template-columns: 150px auto;
+    margin:auto;
+    
+}
+nav {
+    display: flex;
+    justify-content: space-around;
+    
+}
+.logo {
+    width: 7em;
+    margin: auto;
+}
+#logo_link {
+    padding-top: 5px;
+    justify-self: center;
+    align-self: center;
+}
+.logo-title {
+    margin-top: 10px;
+}
+nav a {
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    height: 4px;
+    padding: 35px;
+    font-size: 30px;
+    font-family: Abel;
+} 
+
+nav a:hover{
+    color:black;
+
+}
+
+/*Home*/
+.name {
+    color: #273034;
+    text-align: center;
+    font-size: 80px;
+    font-family: Teko;
+
+}
+nav{
+    font-size: 22px;
+    font-family: Abel;
+}
+
+#home_img{
+    display:grid;
+    text-align: center;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-top:400px;
+}
+
+.img-1 {
+    width: 400px;
+    margin: 50px;
+    grid-column:1/3;
+    grid-row:1/2;
+    
+}
+
+.img-2 {
+    width: 400px;
+    margin: 50px;
+    grid-column:2/3;
+    grid-row:1/2;
+    
+}
+.img-3 {
+    width: 400px;
+    margin: 50px;
+    grid-column:3/3;
+    grid-row: 1/2;
+}
+.img-4 {
+    width: 400px;
+    margin: 50px;
+    grid-column: 1/3;
+    grid-row:2/2;
+}
+
+.img-5{
+    width: 400px;
+    margin: 50px;
+    grid-column: 2/3;
+    grid-row:2/2;
+}
+
+.img-6{
+    width: 400px;
+    margin: 50px;
+    grid-column:3/3;
+    grid-row: 2/2;
+}
+
+
+
+/*Page 2*/
+
+.card {
+    
+    max-width: 100%;;
+    text-align: center;
+    font-family: Abel;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    margin:auto;
+    grid-gap:50px;
+    align-items:center;
+    justify-items: center;
+    margin-left:50px;
+    margin-right:50px;
+    margin-top:70px;
+    margin-bottom: 70px;
+}
+
+.card p{
+    font-size:22px;
+}
+.price {
+    color: rgb(250, 112, 112);
+    font-size: 22px;
+}
+  
+.card button {
+    border: none;
+    outline: 0;
+    padding: 15px;
+    margin: auto;
+    color: black;
+    background-color: #445989;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 25px;
+    font-family: Teko;
+    
+}
+  
+.card button:hover {
+    opacity: 0.5;
+}
+
+.card img{
+    max-width:100%;
+}
+
+
+
+/*contact us*/
+
+form {
+    margin: 0 auto;
+    margin-top:100px;
+    width: 400px;
+    padding: 1em;
+    border: 1px solid #ccc;
+    border-radius: 1em;
+}
+  
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+  
+form li + li {
+    margin-top: 1em;
+}
+  
+label {
+    display: inline-block;
+    width: 90px;
+    text-align: right;
+}
+  
+input,
+textarea {
+    font: 1em sans-serif;
+    width: 300px;
+    box-sizing: border-box;
+    border: 1px solid #999;
+}
+  
+input:focus,
+textarea:focus {
+    border-color: #000;
+}
+  
+textarea {
+    vertical-align: top;
+    height: 5em;
+}
+  
+.button {
+    padding-left: 90px;
+}
+  
+button {
+    margin-left: 0.5em;
+}
+#feedback {
+    background-color: antiquewhite;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: .5em;
+    display: none;
+    text-align: center;      
+}
+.moveDown {
+    margin-top: 3em;
+}
+
+#contactus_img{
+    display:grid;
+    text-align: center;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-top:50px;
+}
+
+.social a:hover{
+    opacity: 0.5;
+}
+
+#contactus_img a:hover {
+    opacity: 0.5;
+}
+
+.img-19 {
+    width: 50%;
+    margin: 100px;
+    border-radius:50%;
+}
+.img-20 {
+    width: 50%;
+    margin: 100px;
+    border-radius:50%;
+}
+.img-21 {
+    width: 50%;
+    margin: 100px;
+    border-radius:50%;
+}
+
+/*footer*/
+footer p {
+    font-size: 1.5em;
+    color:white;
+    font-family: Abel ;
+}
+footer p a:hover {
+    text-decoration: underline;
+}
+footer {
+    background-color:#273034;
+    color:#ffffff;
+    padding: 25px 50px;
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}      
+footer a {
+    color:white;
+    text-decoration: none;
+}
+footer a:hover {
+    color:#f6d280;
+}
+footer .social img{
+    padding-top: 15px;
+}
+
+
